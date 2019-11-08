@@ -22,11 +22,11 @@ body {
 
 .wave {
   position: absolute;
-  height: 95%;
-  width: 90%;
+  height: 85%;
+  width: 80%;
   background:white;
-  left: 4%;
-  top: -40%;
+  left: 0%;
+  top: -10%;
   
 
 }
@@ -43,12 +43,12 @@ body {
 }
 
 .wave--1{
-  top: -12%;
-  left: 15%;
+  top: -10%;
+  left: 20%;
   border-radius: 35%;
    animation: wave1 4s linear infinite running;
   transform: scale(1.2);
-  background: rgba(173,216,230,.3);
+  background: rgba(173,216,230,.7);
   box-shadow: inset 0 0 12px rgba(135,206,250,.4);
 }
 
@@ -58,8 +58,8 @@ body {
   top: -50%;
   left: 10%;
   animation: wave2 6s linear infinite running;
-  height: 120%;
-  width: 120%;
+  height: 110%;
+  width: 110%;
    background-color: white;
   box-shadow: inset 0 0 18px rgba(0,0,0,.2);
 }
@@ -90,4 +90,5 @@ body {
     transform: rotate(calc(20deg + 360deg));
   }
 }
+
 
