@@ -48,7 +48,7 @@ body {
   border-radius: 35%;
    animation: wave1 4s linear infinite running;
   transform: scale(1.2);
-  background: rgba(173,216,230,.7);
+  background: rgba(173,216,230,.4);
   box-shadow: inset 0 0 12px rgba(135,206,250,.4);
 }
 
